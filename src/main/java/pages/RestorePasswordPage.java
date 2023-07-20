@@ -5,10 +5,11 @@ import io.qameta.allure.Step;
 import pages.commonElements.UpperSide;
 
 import static com.codeborne.selenide.Selenide.$x;
+import static helper.HelpMethods.clickOn;
 
 public class RestorePasswordPage extends UpperSide {
 
-    private final SelenideElement emailField = $x("//label[text()='Email']");
+    private final SelenideElement emailField = $x("//label[text()='Email']/following-sibling::input");
     private final SelenideElement restoreButton = $x("//button[text()='Восстановить']");
 
     @Step("Ввод значения {0} в поле 'Email'")
@@ -19,6 +20,6 @@ public class RestorePasswordPage extends UpperSide {
 
     @Step("нажатие на кнопку 'Восстановить'")
     public void clickOnRegisterButton() {
-        restoreButton.click();
+        clickOn(restoreButton);
     }
 }
