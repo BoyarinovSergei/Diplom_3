@@ -14,8 +14,6 @@ public class MainPage extends UpperSideElements {
     private final SelenideElement logInButton = $x("//button[text()='Войти в аккаунт']");
     private final SelenideElement makeOrderButton = $x("//button[text()='Оформить заказ']");
     private final SelenideElement buildBurgerText = $x("//h1[@class='text text_type_main-large mb-5 mt-10']");
-    private final SelenideElement selectedBuns = $x("//div[@class=\"tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect\" and //span/text()='Булки']");
-
 
     @Step("Нажатие на кнопку 'Войти'")
     public LogInPage clickOnEnterButton() {
