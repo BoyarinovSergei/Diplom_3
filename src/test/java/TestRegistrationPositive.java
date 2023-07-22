@@ -45,7 +45,7 @@ public class TestRegistrationPositive extends CommonMethods {
                 .fillInPasswordField(password)
                 .clickOnEnterButton();
 
-        new MainPage().waitForMakeOrderButton();
+        new MainPage().waitForMakeOrderOrLogInButton();
     }
 
     @After
