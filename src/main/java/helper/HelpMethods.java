@@ -22,7 +22,7 @@ public abstract class HelpMethods {
         element.click();
     }
 
-    @Step("Закрытие браузера с очисткой кукки и локал сторэдж")
+    @Step("Закрытие браузера с очисткой кукки и локал сторедж")
     public static void shutDown() {
         Selenide.clearBrowserCookies();
         Selenide.clearBrowserLocalStorage();
@@ -33,6 +33,11 @@ public abstract class HelpMethods {
     public static String getToken() {
         dummyWait(1);
         return Selenide.localStorage().getItem("accessToken");
+    }
+
+    @Step("Помещение токена в локал сторедж")
+    public static void setToken(String token) {
+        Selenide.localStorage().setItem("accessToken", token);
     }
 
     @Step("Последняя надежда на ожидание в {0} секунд")

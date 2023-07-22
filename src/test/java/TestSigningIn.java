@@ -10,6 +10,7 @@
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import org.junit.*;
+import pages.LogInPage;
 import pages.MainPage;
 import pages.RecoveryPasswordPage;
 import pages.RegisterPage;
@@ -69,7 +70,9 @@ public class TestSigningIn {
     public void checkSigningInByPersonalAccountButtonOnMainPage() {
         open(MAIN_HOST);
 
-        MAIN_PAGE.clickOnAccountButton()
+        MAIN_PAGE.clickOnAccountButton();
+
+        new LogInPage()
                 .fillInEmailField(email)
                 .fillInPasswordField(password)
                 .clickOnEnterButton();
