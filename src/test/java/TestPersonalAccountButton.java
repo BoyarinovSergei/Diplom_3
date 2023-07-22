@@ -19,7 +19,6 @@ import pojo.response.RespRegister;
 import static addresses.APIs.USER;
 import static addresses.APIs.USER_CREATION;
 import static addresses.URLs.MAIN_HOST;
-import static helper.BrowserSelector.selectedBrowserIs;
 import static helper.HelpMethods.*;
 import static helper.StringGenerator.generateString;
 import static org.apache.http.HttpStatus.SC_OK;
@@ -33,10 +32,9 @@ public class TestPersonalAccountButton extends CommonMethods {
     private static final PersonalAccountPage PERSONAL_ACCOUNT_PAGE = new PersonalAccountPage();
 
     @Before
-    @Description("Генерация тестовых данных и выбор браузера")
+    @Description("Генерация тестовых данных")
     public void adjusting() {
         RestAssured.baseURI = MAIN_HOST;
-        selectedBrowserIs("chrome");
 
         email = generateString(9) + "@yandex.ru";
         name = generateString(6);

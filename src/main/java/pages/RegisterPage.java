@@ -13,7 +13,6 @@ public class RegisterPage extends UpperSideElements {
     private final SelenideElement nameField = $x("//label[text()='Имя']/following-sibling::input");
     private final SelenideElement passwordField = $x("//label[text()='Пароль']/following-sibling::input");
     private final SelenideElement registerButton = $x("//button[text()='Зарегистрироваться']");
-
     private final SelenideElement errorText = $x("//p[@class='input__error text_type_main-default']");
 
     @Step("Ввод значения {0} в поле 'Email'")
@@ -45,7 +44,7 @@ public class RegisterPage extends UpperSideElements {
     }
 
     @Step("Нажатие на ссылку 'Войти'")
-    public LogInPage clickOnLogInLink(){
+    public LogInPage clickOnLogInLink() {
         clickOn(logInLink);
         return new LogInPage();
     }

@@ -1,20 +1,20 @@
 import commonClasses.CommonMethods;
 import io.qameta.allure.Description;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import pages.MainPage;
 
 import static addresses.URLs.MAIN_HOST;
-import static helper.BrowserSelector.selectedBrowserIs;
 import static helper.HelpMethods.open;
+import static helper.HelpMethods.shutDown;
 
 public class TestConstructorSection extends CommonMethods {
 
     @Before
-    @Description("Выбор браузера и открытие главной страницы")
+    @Description("Открытие главной страницы")
     public void setUp() {
-        selectedBrowserIs("chrome");
         open(MAIN_HOST);
     }
 
@@ -47,5 +47,11 @@ public class TestConstructorSection extends CommonMethods {
                 .isSectionSelected("Начинки");
 
         Assert.assertTrue(realResult);
+    }
+
+    @After
+    @Description("Закрытие баузера")
+    public void endWork() {
+        shutDown();
     }
 }

@@ -12,20 +12,18 @@ import org.junit.Test;
 import pages.RegisterPage;
 
 import static addresses.URLs.REGISTER_PAGE;
-import static helper.BrowserSelector.selectedBrowserIs;
 import static helper.HelpMethods.open;
 import static helper.StringGenerator.generateString;
 
 public class TestRegistrationNegative extends CommonMethods {
-
     private static final String email = generateString(9) + "@yandex.ru";
     private static final String name = generateString(6);
     private static final String password = generateString(5);
     private static final RegisterPage registerPage = new RegisterPage();
 
     @Before
+    @Description("Открытие страницы регистрации")
     public void setUp() {
-        selectedBrowserIs("chrome");
         open(REGISTER_PAGE);
     }
 

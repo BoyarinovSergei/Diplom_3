@@ -39,7 +39,7 @@ public class TestSigningIn {
     @Description("Генерация тестовых данных и выбор браузера")
     public static void adjusting() {
         RestAssured.baseURI = MAIN_HOST;
-        selectedBrowserIs("chrome");
+        selectedBrowserIs("yandex");
 
         email = generateString(9) + "@yandex.ru";
         password = generateString(15);

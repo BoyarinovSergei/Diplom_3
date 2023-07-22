@@ -19,7 +19,6 @@ import pojo.response.RespRegister;
 import static addresses.APIs.USER;
 import static addresses.APIs.USER_CREATION;
 import static addresses.URLs.MAIN_HOST;
-import static helper.BrowserSelector.selectedBrowserIs;
 import static helper.HelpMethods.open;
 import static helper.HelpMethods.shutDown;
 import static helper.StringGenerator.generateString;
@@ -34,10 +33,8 @@ public class TestLogOut extends CommonMethods {
     private static final MainPage MAIN_PAGE = new MainPage();
 
     @Before
-    @Description("Генерация тестовых данных и выбор браузера")
+    @Description("Генерация тестовых данных")
     public void adjusting() {
-        selectedBrowserIs("chrome");
-
         email = generateString(9) + "@yandex.ru";
         password = generateString(15);
 

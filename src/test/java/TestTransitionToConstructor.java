@@ -14,7 +14,6 @@ import pages.MainPage;
 import pages.RegisterPage;
 
 import static addresses.URLs.REGISTER_PAGE;
-import static helper.BrowserSelector.selectedBrowserIs;
 import static helper.HelpMethods.open;
 import static helper.HelpMethods.shutDown;
 
@@ -23,15 +22,14 @@ public class TestTransitionToConstructor extends CommonMethods {
     public static final RegisterPage REGISTER_PAGE1 = new RegisterPage();
 
     @Before
-    @Description("Выбор браузера и открытие страницы регистрации")
+    @Description("Открытие страницы регистрации")
     public void setUp() {
-        selectedBrowserIs("chrome");
         open(REGISTER_PAGE);
     }
 
     @Test
     @Description("Проверка перехода по клику на «Конструктор»")
-    public void checkTransitionToConstructor(){
+    public void checkTransitionToConstructor() {
         REGISTER_PAGE1.clickOnConstructorButton();
 
         Assert.assertTrue(MAIN_PAGE.isBuildBurgerTextDisplayed());
@@ -39,7 +37,7 @@ public class TestTransitionToConstructor extends CommonMethods {
 
     @Test
     @Description("Проверка перехода по клику на логотип Stellar Burgers")
-    public void checkTransitionByMainLabel(){
+    public void checkTransitionByMainLabel() {
         REGISTER_PAGE1.clickOnStellarBurgersButton();
 
         Assert.assertTrue(MAIN_PAGE.isBuildBurgerTextDisplayed());

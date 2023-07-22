@@ -15,7 +15,7 @@ import pages.RegisterPage;
 
 import static addresses.APIs.USER;
 import static addresses.URLs.REGISTER_PAGE;
-import static helper.BrowserSelector.selectedBrowserIs;
+import static helper.BrowserSelector.getBrowserName;
 import static helper.HelpMethods.*;
 import static helper.StringGenerator.generateString;
 import static samples.RestSamples.makeDeleteRequest;
@@ -26,8 +26,8 @@ public class TestRegistrationPositive extends CommonMethods {
     private static final String password = generateString(15);
 
     @Before
+    @Description("Открытие страницы регистрации")
     public void setUp() {
-        selectedBrowserIs("chrome");
         open(REGISTER_PAGE);
     }
 
@@ -40,10 +40,15 @@ public class TestRegistrationPositive extends CommonMethods {
                 .fillInPasswordField(password)
                 .clickOnRegisterButton();
 
-        new LogInPage()
-                .fillInEmailField(email)
-                .fillInPasswordField(password)
-                .clickOnEnterButton();
+        if (getBrowserName().equalsIgnoreCase("yandex")) {
+            dummyWait(1);
+            new LogInPage().clickOnEnterButton();
+        } else {
+            new LogInPage()
+                    .fillInEmailField(email)
+                    .fillInPasswordField(password)
+                    .clickOnEnterButton();
+        }
 
         new MainPage().waitForMakeOrderOrLogInButton();
     }
