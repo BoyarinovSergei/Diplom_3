@@ -10,14 +10,15 @@
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import org.junit.*;
-import pages.LogInPage;
 import pages.MainPage;
+import pages.RecoveryPasswordPage;
+import pages.RegisterPage;
 import pojo.request.ReqRegister;
 import pojo.response.RespRegister;
 
 import static addresses.APIs.USER;
 import static addresses.APIs.USER_CREATION;
-import static addresses.URLs.MAIN_HOST;
+import static addresses.URLs.*;
 import static helper.BrowserSelector.selectedBrowserIs;
 import static helper.HelpMethods.open;
 import static helper.HelpMethods.shutDown;
@@ -28,12 +29,9 @@ import static samples.RestSamples.makePostRequestWithNoAuthorization;
 
 
 public class TestSigningIn {
-
     private static String token;
     private static String email;
-    private static String name;
     private static String password;
-    private static final LogInPage LOG_IN_PAGE = new LogInPage();
     private static final MainPage MAIN_PAGE = new MainPage();
 
     @BeforeClass
@@ -43,10 +41,9 @@ public class TestSigningIn {
         selectedBrowserIs("chrome");
 
         email = generateString(9) + "@yandex.ru";
-        name = generateString(6);
         password = generateString(15);
 
-        token = makePostRequestWithNoAuthorization(USER_CREATION, new ReqRegister(email, password, name))
+        token = makePostRequestWithNoAuthorization(USER_CREATION, new ReqRegister(email, password, generateString(6)))
                 .then()
                 .statusCode(SC_OK)
                 .and()
@@ -54,15 +51,11 @@ public class TestSigningIn {
                 .as(RespRegister.class).accessToken;
     }
 
-    @Before
-    @Description("Открытие главной страницы сайта")
-    public void openMainPage() {
-        open(MAIN_HOST);
-    }
-
     @Test
     @Description("вход по кнопке «Войти в аккаунт» на главной с проверкой отображения текста 'Соберите бургер'")
     public void checkSigningInByEnterButtonOnMainPage() {
+        open(MAIN_HOST);
+
         MAIN_PAGE.clickOnEnterButton()
                 .fillInEmailField(email)
                 .fillInPasswordField(password)
@@ -74,7 +67,37 @@ public class TestSigningIn {
     @Test
     @Description("вход через кнопку «Личный кабинет» с проверкой отображения текста 'Соберите бургер'")
     public void checkSigningInByPersonalAccountButtonOnMainPage() {
+        open(MAIN_HOST);
+
         MAIN_PAGE.clickOnAccountButton()
+                .fillInEmailField(email)
+                .fillInPasswordField(password)
+                .clickOnEnterButton();
+
+        Assert.assertTrue(MAIN_PAGE.isBuildBurgerTextDisplayed());
+    }
+
+    @Test
+    @Description("вход через кнопку в форме регистрации с проверкой отображения текста 'Соберите бургер'")
+    public void checkSigningInByEnterLinkOnRegisterPage() {
+        open(REGISTER_PAGE);
+
+        new RegisterPage()
+                .clickOnLogInLink()
+                .fillInEmailField(email)
+                .fillInPasswordField(password)
+                .clickOnEnterButton();
+
+        Assert.assertTrue(MAIN_PAGE.isBuildBurgerTextDisplayed());
+    }
+
+    @Test
+    @Description("вход через кнопку в форме восстановления пароля с проверкой отображения текста 'Соберите бургер'")
+    public void checkSigningInByEnterLinkOnRecoveryPage() {
+        open(RESTORE_PASSWORD_PAGE);
+
+        new RecoveryPasswordPage()
+                .clickOnLogInLink()
                 .fillInEmailField(email)
                 .fillInPasswordField(password)
                 .clickOnEnterButton();

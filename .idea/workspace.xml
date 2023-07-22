@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9867a4f0-a767-4eca-997b-51939cf51a37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/request/ReqRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/response/RespRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/response/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRegistrationNegative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSigningIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/RecoveryPasswordPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/addresses/APIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/addresses/APIs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/addresses/URLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/addresses/URLs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/BrowserSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/HelpMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/HelpMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/samples/RestSamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samples/RestSamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRegistrationPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/commonClasses/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commonClasses/CommonMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSigningIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSigningIn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,16 +62,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestSigningIn">
-    <configuration name="TestRegistrationNegative.checkImpossibilityOfRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRegistrationNegative" />
-      <option name="METHOD_NAME" value="checkImpossibilityOfRegistration" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSigningIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,21 +71,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSigningIn.checkRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSigningIn" />
-      <option name="METHOD_NAME" value="checkRegistration" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSigningIn.checkSigningInByEnterButtonOnMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestSigningIn" />
       <option name="METHOD_NAME" value="checkSigningInByEnterButtonOnMainPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSigningIn.checkSigningInByEnterLinkOnRecoveryPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSigningIn" />
+      <option name="METHOD_NAME" value="checkSigningInByEnterLinkOnRecoveryPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSigningIn.checkSigningInByEnterLinkOnRegisterPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSigningIn" />
+      <option name="METHOD_NAME" value="checkSigningInByEnterLinkOnRegisterPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,10 +114,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestSigningIn" />
+        <item itemvalue="JUnit.TestSigningIn.checkSigningInByEnterLinkOnRecoveryPage" />
+        <item itemvalue="JUnit.TestSigningIn.checkSigningInByEnterLinkOnRegisterPage" />
         <item itemvalue="JUnit.TestSigningIn.checkSigningInByEnterButtonOnMainPage" />
         <item itemvalue="JUnit.TestSigningIn.checkSigningInByPersonalAccoundButtonOnMainPage" />
-        <item itemvalue="JUnit.TestSigningIn.checkRegistration" />
-        <item itemvalue="JUnit.TestRegistrationNegative.checkImpossibilityOfRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690015309844</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Половина проверок в разделе Вход готова">
+      <option name="closed" value="true" />
+      <created>1690022221777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690022221777</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +180,7 @@
     <MESSAGE value="Готов каркас и все зависимости." />
     <MESSAGE value="Первая проверка готова." />
     <MESSAGE value="Добавлена возможность запуска яндекс браузера." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлена возможность запуска яндекс браузера." />
+    <MESSAGE value="Половина проверок в разделе Вход готова" />
+    <option name="LAST_COMMIT_MESSAGE" value="Половина проверок в разделе Вход готова" />
   </component>
 </project>
