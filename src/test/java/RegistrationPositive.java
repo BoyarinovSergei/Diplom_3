@@ -4,13 +4,11 @@
  * 1. Успешную регистрацию.
  * */
 
-import com.codeborne.selenide.Selenide;
 import commonClasses.CommonMethods;
 import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.NotFoundException;
 import pages.RegisterPage;
 
 import static addresses.APIs.USER;
@@ -35,7 +33,7 @@ public class RegistrationPositive extends CommonMethods {
     @Test
     @Description("Регистрация, вход и проверка, что кнопка 'Оформить заказ' отображается")
     public void checkRegistration() {
-       new RegisterPage()
+        new RegisterPage()
                 .fillInEmailField(email)
                 .fillInNameField(name)
                 .fillInPasswordField(password)
@@ -44,13 +42,12 @@ public class RegistrationPositive extends CommonMethods {
                 .fillInPasswordField(password)
                 .clickOnEnterButton()
                 .waitForMakeOrderButton();
-
-           token = getToken();
     }
 
     @After
     @Description("Удаление созданной учетки и закрытие баузера")
     public void endWork() {
+        token = getToken();
         shutDown();
         makeDeleteRequest(USER, token);
     }
