@@ -37,4 +37,9 @@ public class LogInPage extends UpperSideElements {
     public void clickOnEnterButton() {
         clickOn(enterButton);
     }
+
+    @Step("Отображатеся ли кнопка 'Войти'")
+    public Boolean isEnterButtonEnabled() {
+        return enterButton.isEnabled();
+    }
 }

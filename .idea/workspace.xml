@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9867a4f0-a767-4eca-997b-51939cf51a37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestTransitionToConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestLogOut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PersonalAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PersonalAccountPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +60,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRegistrationPositive">
-    <configuration name="TestPersonalAccountButton.checkPersonalAccountEntering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestLogOut">
+    <configuration name="TestLogOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestPersonalAccountButton" />
-      <option name="METHOD_NAME" value="checkPersonalAccountEntering" />
+      <option name="MAIN_CLASS_NAME" value="TestLogOut" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogOut.checkSigningInByEnterButtonOnMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLogOut" />
+      <option name="METHOD_NAME" value="checkSigningInByEnterButtonOnMainPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,15 +84,6 @@
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRegistrationPositive" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSigningIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSigningIn" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLogOut" />
+        <item itemvalue="JUnit.TestLogOut.checkSigningInByEnterButtonOnMainPage" />
         <item itemvalue="JUnit.TestRegistrationPositive" />
         <item itemvalue="JUnit.TestTransitionToConstructor" />
         <item itemvalue="JUnit.TestTransitionToConstructor.checkTransitionToConstructor" />
-        <item itemvalue="JUnit.TestPersonalAccountButton.checkPersonalAccountEntering" />
-        <item itemvalue="JUnit.TestSigningIn" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690025818869</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Проверка 'Переход из личного кабинета в конструктор ' готова.">
+      <option name="closed" value="true" />
+      <created>1690028470939</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690028470939</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +204,7 @@
     <MESSAGE value="Половина проверок в разделе Вход готова" />
     <MESSAGE value="В разделе Вход все проверки готовы." />
     <MESSAGE value="Проверка 'Переход в личный кабинет' готова." />
-    <option name="LAST_COMMIT_MESSAGE" value="Проверка 'Переход в личный кабинет' готова." />
+    <MESSAGE value="Проверка 'Переход из личного кабинета в конструктор ' готова." />
+    <option name="LAST_COMMIT_MESSAGE" value="Проверка 'Переход из личного кабинета в конструктор ' готова." />
   </component>
 </project>
