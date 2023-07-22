@@ -34,8 +34,7 @@ public class LogInPage extends UpperSide {
     }
 
     @Step("Нажатие на кнопку 'Войти'")
-    public MainPage clickOnEnterButton() {
+    public void clickOnEnterButton() {
         clickOn(enterButton);
-        return new MainPage();
     }
 }

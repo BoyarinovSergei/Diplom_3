@@ -11,7 +11,7 @@ import io.qameta.allure.Step;
 
 public abstract class HelpMethods {
 
-    @Step("Открыть страницу {0}")
+    @Step("Открыть страницу по адресу {0}")
     public static void open(String url) {
         Selenide.open(url);
     }
@@ -22,14 +22,17 @@ public abstract class HelpMethods {
         element.click();
     }
 
-    @Step("Закрытие браузера")
-    public static void shutDown(){
+    @Step("Закрытие браузера с очисткой кукки и локал сторэдж")
+    public static void shutDown() {
+        Selenide.clearBrowserCookies();
+        Selenide.clearBrowserLocalStorage();
         Selenide.closeWebDriver();
     }
 
     @Step("Получение токена")
-    public static String getToken(){
-       return Selenide.localStorage().getItem("accessToken");
+    public static String getToken() {
+        dummyWait(1);
+        return Selenide.localStorage().getItem("accessToken");
     }
 
     @Step("Последняя надежда на ожидание в {0} секунд")

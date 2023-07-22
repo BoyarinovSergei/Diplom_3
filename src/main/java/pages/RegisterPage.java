@@ -34,9 +34,8 @@ public class RegisterPage extends UpperSide {
     }
 
     @Step("нажатие на кнопку 'Зарегистрироваться'")
-    public LogInPage clickOnRegisterButton() {
+    public void clickOnRegisterButton() {
         clickOn(registerButton);
-        return new LogInPage();
     }
 
     @Step("Отображается ли текст 'Некорректный пароль' на странице регистрации")

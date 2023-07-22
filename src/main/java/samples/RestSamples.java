@@ -1,6 +1,7 @@
 package samples;
 
 import io.qameta.allure.Step;
+import io.restassured.response.Response;
 
 import static headers.SetOfHeaders.DEFAULT_HEADERS;
 import static io.restassured.RestAssured.given;
@@ -19,5 +20,14 @@ public class RestSamples {
                 .and()
                 .body("success", equalTo(true))
                 .body("message", equalTo("User successfully removed"));
+    }
+
+    @Step("Выполнение post запроса без авторизации")
+    public static Response makePostRequestWithNoAuthorization(String path, Object json) {
+        return given()
+                .headers(DEFAULT_HEADERS)
+                .body(json)
+                .post(path)
+                .andReturn();
     }
 }

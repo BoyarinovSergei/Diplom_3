@@ -9,24 +9,25 @@ import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import pages.LogInPage;
+import pages.MainPage;
 import pages.RegisterPage;
 
 import static addresses.APIs.USER;
 import static addresses.URLs.REGISTER_PAGE;
-import static helper.BrowserSelector.selectThisBrowser;
+import static helper.BrowserSelector.selectedBrowserIs;
 import static helper.HelpMethods.*;
 import static helper.StringGenerator.generateString;
 import static samples.RestSamples.makeDeleteRequest;
 
-public class RegistrationPositive extends CommonMethods {
-    private static String token;
+public class TestRegistrationPositive extends CommonMethods {
     private static final String email = generateString(9) + "@yandex.ru";
     private static final String name = generateString(6);
     private static final String password = generateString(15);
 
     @Before
     public void setUp() {
-        selectThisBrowser("chrome");
+        selectedBrowserIs("chrome");
         open(REGISTER_PAGE);
     }
 
@@ -37,18 +38,20 @@ public class RegistrationPositive extends CommonMethods {
                 .fillInEmailField(email)
                 .fillInNameField(name)
                 .fillInPasswordField(password)
-                .clickOnRegisterButton()
+                .clickOnRegisterButton();
+
+        new LogInPage()
                 .fillInEmailField(email)
                 .fillInPasswordField(password)
-                .clickOnEnterButton()
-                .waitForMakeOrderButton();
+                .clickOnEnterButton();
+
+        new MainPage().waitForMakeOrderButton();
     }
 
     @After
     @Description("Удаление созданной учетки и закрытие баузера")
     public void endWork() {
-        token = getToken();
+        makeDeleteRequest(USER, getToken());
         shutDown();
-        makeDeleteRequest(USER, token);
     }
 }
