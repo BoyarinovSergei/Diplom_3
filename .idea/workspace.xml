@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9867a4f0-a767-4eca-997b-51939cf51a37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestLogOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestConstructorSection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PersonalAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PersonalAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLogOut">
+  <component name="RunManager" selected="JUnit.TestConstructorSection.checkBunsSections">
+    <configuration name="TestConstructorSection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestConstructorSection" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConstructorSection.checkBunsSections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestConstructorSection" />
+      <option name="METHOD_NAME" value="checkBunsSections" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLogOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,32 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTransitionToConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTransitionToConstructor" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTransitionToConstructor.checkTransitionToConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTransitionToConstructor" />
-      <option name="METHOD_NAME" value="checkTransitionToConstructor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestConstructorSection.checkBunsSections" />
+        <item itemvalue="JUnit.TestConstructorSection" />
         <item itemvalue="JUnit.TestLogOut" />
         <item itemvalue="JUnit.TestLogOut.checkSigningInByEnterButtonOnMainPage" />
         <item itemvalue="JUnit.TestRegistrationPositive" />
-        <item itemvalue="JUnit.TestTransitionToConstructor" />
-        <item itemvalue="JUnit.TestTransitionToConstructor.checkTransitionToConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690028470939</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Проверка 'Выход из аккаунта' готова.">
+      <option name="closed" value="true" />
+      <created>1690029708163</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690029708163</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +212,18 @@
     <MESSAGE value="В разделе Вход все проверки готовы." />
     <MESSAGE value="Проверка 'Переход в личный кабинет' готова." />
     <MESSAGE value="Проверка 'Переход из личного кабинета в конструктор ' готова." />
-    <option name="LAST_COMMIT_MESSAGE" value="Проверка 'Переход из личного кабинета в конструктор ' готова." />
+    <MESSAGE value="Проверка 'Выход из аккаунта' готова." />
+    <option name="LAST_COMMIT_MESSAGE" value="Проверка 'Выход из аккаунта' готова." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/MainPage.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
