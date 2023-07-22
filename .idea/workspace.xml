@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9867a4f0-a767-4eca-997b-51939cf51a37" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/BrowserSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestConstructorSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestConstructorSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestPersonalAccountButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPersonalAccountButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRegistrationNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRegistrationNegative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRegistrationPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRegistrationPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSigningIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSigningIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestTransitionToConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestTransitionToConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/commonClasses/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commonClasses/CommonMethods.java" afterDir="false" />
-    </list>
+    <list default="true" id="9867a4f0-a767-4eca-997b-51939cf51a37" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +25,25 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="BoyarinovSergei" />
+        <option name="repository" value="Diplom_3" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1481b951-dc7b-40fa-b6fb-4b188f6fb898" />
+        <option name="url" value="https://github.com/BoyarinovSergei/Diplom_3.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2SnnX6ZVtlI1ejTYWnJNNbye2ky" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -206,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690033931370</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Все проверки готовы под два браузера.">
+      <option name="closed" value="true" />
+      <created>1690035626044</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690035626044</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Добавлен отчет">
+      <option name="closed" value="true" />
+      <created>1690035647801</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690035647801</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,17 +252,8 @@
     <MESSAGE value="Проверка 'Переход из личного кабинета в конструктор ' готова." />
     <MESSAGE value="Проверка 'Выход из аккаунта' готова." />
     <MESSAGE value="Проверка 'Раздел «Конструктор»' готова." />
-    <option name="LAST_COMMIT_MESSAGE" value="Проверка 'Раздел «Конструктор»' готова." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/LogInPage.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Все проверки готовы под два браузера." />
+    <MESSAGE value="Добавлен отчет" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен отчет" />
   </component>
 </project>
