@@ -2,7 +2,7 @@ package pages;
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
-import pages.commonElements.UpperSideElements;
+import pages.commonelements.UpperSideElements;
 
 import static com.codeborne.selenide.Selenide.$x;
 import static helper.HelpMethods.clickOn;

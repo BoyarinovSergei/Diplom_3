@@ -6,7 +6,6 @@ import java.util.Locale;
 import java.util.Random;
 
 public class StringGenerator {
-
     @Step("Генерация строки длинной {0} символов")
     public static String generateString(int length)
     {

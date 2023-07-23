@@ -12,5 +12,6 @@ README.md
 5. lombok - для добавления setters/getters и constructors
 6. org.aspectj - слушалка для отчетов
 7. Selenide - для работы с браузерами
+8. owner - для упрощенной работы с properties
    
 Для генерации allure-report можно использовать allure serve target/allure-results --host localhost --port 9999

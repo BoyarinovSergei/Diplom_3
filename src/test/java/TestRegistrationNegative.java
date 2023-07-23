@@ -4,16 +4,20 @@
  * 2. Ошибку для некорректного пароля. Минимальный пароль — шесть символов.
  * */
 
-import commonClasses.CommonMethods;
+import commonclasses.CommonMethods;
 import io.qameta.allure.Description;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import pages.RegisterPage;
 
+import static addresses.APIs.USER;
 import static addresses.URLs.REGISTER_PAGE;
+import static helper.HelpMethods.getToken;
 import static helper.HelpMethods.open;
 import static helper.StringGenerator.generateString;
+import static samples.RestSamples.makeDeleteRequest;
 
 public class TestRegistrationNegative extends CommonMethods {
     private static final String email = generateString(9) + "@yandex.ru";
@@ -37,5 +41,15 @@ public class TestRegistrationNegative extends CommonMethods {
                 .clickOnRegisterButton();
 
         Assert.assertTrue(registerPage.isErrorTextDisplayed());
+    }
+
+    @AfterClass
+    @Description("Удаление созданной учетки")
+    public static void deleteUser() {
+        if (!registerPage.isErrorTextDisplayed()) {
+            loggingInDependingOnBrowser(email, password);
+
+            makeDeleteRequest(USER, getToken());
+        }
     }
 }

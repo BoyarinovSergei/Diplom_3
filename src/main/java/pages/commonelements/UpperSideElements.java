@@ -2,7 +2,7 @@
 * Описаны элементы верхней части сайта
 * */
 
-package pages.commonElements;
+package pages.commonelements;
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;

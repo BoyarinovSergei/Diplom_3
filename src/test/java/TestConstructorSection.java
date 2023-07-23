@@ -1,4 +1,4 @@
-import commonClasses.CommonMethods;
+import commonclasses.CommonMethods;
 import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Assert;

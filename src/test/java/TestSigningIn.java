@@ -49,7 +49,7 @@ public class TestSigningIn {
                 .statusCode(SC_OK)
                 .and()
                 .extract()
-                .as(RespRegister.class).accessToken;
+                .as(RespRegister.class).getAccessToken();
     }
 
     @Test

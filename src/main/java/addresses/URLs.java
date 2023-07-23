@@ -1,11 +1,15 @@
 /*
-* Интерфейс для хранения хостов
-* */
+ * Интерфейс для хранения хостов
+ * */
 
 package addresses;
 
+import config.Hosts;
+import config.UIProps;
+import org.aeonbits.owner.ConfigFactory;
+
 public interface URLs {
-    String MAIN_HOST = "http://stellarburgers.nomoreparties.site";
-    String REGISTER_PAGE = "https://stellarburgers.nomoreparties.site/register";
-    String RESTORE_PASSWORD_PAGE = "https://stellarburgers.nomoreparties.site/forgot-password";
+    String MAIN_HOST = ConfigFactory.create(Hosts.class).mainUrl();
+    String REGISTER_PAGE = ConfigFactory.create(UIProps.class).registerPage();
+    String RESTORE_PASSWORD_PAGE = ConfigFactory.create(UIProps.class).restorePassPage();
 }

@@ -19,7 +19,7 @@ public abstract class BrowserSelector {
     }
 
     @Step("Узнать тип браузера")
-    public static String getBrowserName(){
+    public static String getBrowserName() {
         return browser;
     }
 }

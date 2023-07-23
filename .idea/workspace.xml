@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9867a4f0-a767-4eca-997b-51939cf51a37" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/Hosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/UIProps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/addresses/URLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/addresses/URLs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/StringGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/StringGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PersonalAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PersonalAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RecoveryPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RecoveryPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RestorePasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RestorePasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/commonElements/UpperSideElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/commonelements/UpperSideElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/request/ReqRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/request/ReqRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/response/RespRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/response/RespRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/response/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/response/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestConstructorSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestConstructorSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPersonalAccountButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPersonalAccountButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRegistrationNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRegistrationNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRegistrationPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRegistrationPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSigningIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSigningIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestTransitionToConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestTransitionToConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/commonClasses/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commonclasses/CommonMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -80,11 +103,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRegistrationNegative.checkImpossibilityOfRegistration">
+  <component name="RunManager" selected="JUnit.TestConstructorSection.checkBunsSections">
     <configuration name="TestConstructorSection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestConstructorSection" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConstructorSection.checkBunsSections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestConstructorSection" />
+      <option name="METHOD_NAME" value="checkBunsSections" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRegistrationNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRegistrationNegative" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,31 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSigningIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSigningIn" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTransitionToConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTransitionToConstructor" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRegistrationNegative.checkImpossibilityOfRegistration" />
-        <item itemvalue="JUnit.TestRegistrationPositive.checkRegistration" />
+        <item itemvalue="JUnit.TestConstructorSection.checkBunsSections" />
         <item itemvalue="JUnit.TestConstructorSection" />
-        <item itemvalue="JUnit.TestTransitionToConstructor" />
-        <item itemvalue="JUnit.TestSigningIn" />
+        <item itemvalue="JUnit.TestRegistrationPositive.checkRegistration" />
+        <item itemvalue="JUnit.TestRegistrationNegative" />
+        <item itemvalue="JUnit.TestRegistrationNegative.checkImpossibilityOfRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690036617457</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Удалил лишнюю строку.">
+      <option name="closed" value="true" />
+      <created>1690046746548</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690046746548</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +302,7 @@
     <MESSAGE value="Все проверки готовы под два браузера." />
     <MESSAGE value="Добавлен отчет" />
     <MESSAGE value="Удалил лишний файл." />
-    <option name="LAST_COMMIT_MESSAGE" value="Удалил лишний файл." />
+    <MESSAGE value="Удалил лишнюю строку." />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалил лишнюю строку." />
   </component>
 </project>

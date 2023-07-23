@@ -67,6 +67,13 @@
       <artifactId>junit</artifactId>
       <version>4.13.2</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.aeonbits.owner</groupId>
+      <artifactId>owner</artifactId>
+      <version>1.0.12</version>
+    </dependency>
+
   </dependencies>
 
   <build>

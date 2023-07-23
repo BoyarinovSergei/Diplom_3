@@ -4,18 +4,16 @@
  * 1. Успешную регистрацию.
  * */
 
-import commonClasses.CommonMethods;
+import commonclasses.CommonMethods;
 import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import pages.LogInPage;
 import pages.MainPage;
 import pages.RegisterPage;
 
 import static addresses.APIs.USER;
 import static addresses.URLs.REGISTER_PAGE;
-import static helper.BrowserSelector.getBrowserName;
 import static helper.HelpMethods.*;
 import static helper.StringGenerator.generateString;
 import static samples.RestSamples.makeDeleteRequest;
@@ -40,15 +38,7 @@ public class TestRegistrationPositive extends CommonMethods {
                 .fillInPasswordField(password)
                 .clickOnRegisterButton();
 
-        if (getBrowserName().equalsIgnoreCase("yandex")) {
-            dummyWait(1);
-            new LogInPage().clickOnEnterButton();
-        } else {
-            new LogInPage()
-                    .fillInEmailField(email)
-                    .fillInPasswordField(password)
-                    .clickOnEnterButton();
-        }
+        loggingInDependingOnBrowser(email, password);
 
         new MainPage().waitForMakeOrderOrLogInButton();
     }

@@ -4,7 +4,7 @@
  * 1. Проверь переход по клику на «Личный кабинет».
  * */
 
-import commonClasses.CommonMethods;
+import commonclasses.CommonMethods;
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import org.junit.After;
@@ -44,7 +44,7 @@ public class TestPersonalAccountButton extends CommonMethods {
                 .statusCode(SC_OK)
                 .and()
                 .extract()
-                .as(RespRegister.class).accessToken;
+                .as(RespRegister.class).getAccessToken();
     }
 
     @Test

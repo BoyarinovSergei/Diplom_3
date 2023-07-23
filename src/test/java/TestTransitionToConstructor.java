@@ -4,7 +4,7 @@
  * 1. Проверь переход по клику на «Конструктор» и на логотип Stellar Burgers.
  * */
 
-import commonClasses.CommonMethods;
+import commonclasses.CommonMethods;
 import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Assert;

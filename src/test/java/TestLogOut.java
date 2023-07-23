@@ -4,7 +4,7 @@
  * 1. Проверь выход по кнопке «Выйти» в личном кабинете.
  * */
 
-import commonClasses.CommonMethods;
+import commonclasses.CommonMethods;
 import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Assert;
@@ -43,7 +43,7 @@ public class TestLogOut extends CommonMethods {
                 .statusCode(SC_OK)
                 .and()
                 .extract()
-                .as(RespRegister.class).accessToken;
+                .as(RespRegister.class).getAccessToken();
     }
 
     @Test
