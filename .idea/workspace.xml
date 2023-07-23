@@ -4,18 +4,163 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9867a4f0-a767-4eca-997b-51939cf51a37" name="Changes" comment="" />
+    <list default="true" id="9867a4f0-a767-4eca-997b-51939cf51a37" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/Hosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/UIProps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/addresses/URLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/addresses/URLs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/StringGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/StringGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PersonalAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PersonalAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RecoveryPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RecoveryPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RestorePasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RestorePasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/commonElements/UpperSideElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/commonelements/UpperSideElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/request/ReqRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/request/ReqRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/response/RespRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/response/RespRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/response/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/response/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestConstructorSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestConstructorSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPersonalAccountButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPersonalAccountButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRegistrationNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRegistrationNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRegistrationPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRegistrationPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSigningIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSigningIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestTransitionToConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestTransitionToConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/commonClasses/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commonclasses/CommonMethods.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="BoyarinovSergei" />
+        <option name="repository" value="Diplom_3" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1481b951-dc7b-40fa-b6fb-4b188f6fb898" />
+        <option name="url" value="https://github.com/BoyarinovSergei/Diplom_3.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SnnX6ZVtlI1ejTYWnJNNbye2ky" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop3&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ndree\Desktop\Diplom\diplom_3\Diplom_3\src\test\resources" />
+      <recent name="C:\Users\ndree\Desktop\Diplom\diplom_3\Diplom_3" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestConstructorSection.checkBunsSections">
+    <configuration name="TestConstructorSection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestConstructorSection" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConstructorSection.checkBunsSections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestConstructorSection" />
+      <option name="METHOD_NAME" value="checkBunsSections" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRegistrationNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRegistrationNegative" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRegistrationNegative.checkImpossibilityOfRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRegistrationNegative" />
+      <option name="METHOD_NAME" value="checkImpossibilityOfRegistration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRegistrationPositive.checkRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRegistrationPositive" />
+      <option name="METHOD_NAME" value="checkRegistration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestConstructorSection.checkBunsSections" />
+        <item itemvalue="JUnit.TestConstructorSection" />
+        <item itemvalue="JUnit.TestRegistrationPositive.checkRegistration" />
+        <item itemvalue="JUnit.TestRegistrationNegative" />
+        <item itemvalue="JUnit.TestRegistrationNegative.checkImpossibilityOfRegistration" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -26,6 +171,138 @@
       <option name="presentableId" value="Default" />
       <updated>1689778246117</updated>
     </task>
+    <task id="LOCAL-00001" summary="Готов каркас и все зависимости.">
+      <option name="closed" value="true" />
+      <created>1689797060950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689797060950</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Первая проверка готова.">
+      <option name="closed" value="true" />
+      <created>1689883965240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689883965240</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавлена возможность запуска яндекс браузера.">
+      <option name="closed" value="true" />
+      <created>1690015309844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690015309844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Половина проверок в разделе Вход готова">
+      <option name="closed" value="true" />
+      <created>1690022221777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690022221777</updated>
+    </task>
+    <task id="LOCAL-00005" summary="В разделе Вход все проверки готовы.">
+      <option name="closed" value="true" />
+      <created>1690023158590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690023158590</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Проверка 'Переход в личный кабинет' готова.">
+      <option name="closed" value="true" />
+      <created>1690025818869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690025818869</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Проверка 'Переход из личного кабинета в конструктор ' готова.">
+      <option name="closed" value="true" />
+      <created>1690028470939</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690028470939</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Проверка 'Выход из аккаунта' готова.">
+      <option name="closed" value="true" />
+      <created>1690029708163</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690029708163</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Проверка 'Раздел «Конструктор»' готова.">
+      <option name="closed" value="true" />
+      <created>1690033931370</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690033931370</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Все проверки готовы под два браузера.">
+      <option name="closed" value="true" />
+      <created>1690035626044</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690035626044</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Добавлен отчет">
+      <option name="closed" value="true" />
+      <created>1690035647801</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690035647801</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Удалил лишний файл.">
+      <option name="closed" value="true" />
+      <created>1690036617457</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690036617457</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Удалил лишнюю строку.">
+      <option name="closed" value="true" />
+      <created>1690046746548</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690046746548</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Готов каркас и все зависимости." />
+    <MESSAGE value="Первая проверка готова." />
+    <MESSAGE value="Добавлена возможность запуска яндекс браузера." />
+    <MESSAGE value="Половина проверок в разделе Вход готова" />
+    <MESSAGE value="В разделе Вход все проверки готовы." />
+    <MESSAGE value="Проверка 'Переход в личный кабинет' готова." />
+    <MESSAGE value="Проверка 'Переход из личного кабинета в конструктор ' готова." />
+    <MESSAGE value="Проверка 'Выход из аккаунта' готова." />
+    <MESSAGE value="Проверка 'Раздел «Конструктор»' готова." />
+    <MESSAGE value="Все проверки готовы под два браузера." />
+    <MESSAGE value="Добавлен отчет" />
+    <MESSAGE value="Удалил лишний файл." />
+    <MESSAGE value="Удалил лишнюю строку." />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалил лишнюю строку." />
   </component>
 </project>
