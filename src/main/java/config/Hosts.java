@@ -11,4 +11,10 @@ import org.aeonbits.owner.Config;
 public interface Hosts extends Config {
     @Key("url.mainHost")
     String mainUrl();
+
+    @Key("url.registerPage")
+    String registerPage();
+
+    @Key("url.restorePassPage")
+    String restorePassPage();
 }

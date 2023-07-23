@@ -9,12 +9,6 @@ import org.aeonbits.owner.Config;
         "file:src/test/resources/config.properties"
 })
 public interface UIProps extends Config {
-    @Key("ui.registerPage")
-    String registerPage();
-
-    @Key("ui.restorePassPage")
-    String restorePassPage();
-
     @Key("ui.browser")
     String browserType();
 }
